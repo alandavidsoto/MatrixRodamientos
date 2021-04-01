@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="../../images/icon/icon2.png" type="image/x-icon">
+    <!-- Codificacion para Caracteres Especiales -->
+    <meta charset="UTF-8">
+    <!-- Compatibildad con Intenet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Viewport Responsive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hoja de Estilo -->
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../Responsive Mobile/Mobile.css">
+    <link rel="stylesheet" href="../../Responsive Tablet/tablet.css">
+    <link rel="stylesheet" href="responsive-productoelejido.css">
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/27afa08620.js" crossorigin="anonymous"></script>
+    <!-- Fonts google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
+    <!-- Tittle -->
+    <title>MatrixRodamientos S.A.</title>
+</head>
+
+<body>
+
+    <div class="contenedor-buscador-mobile">
+        <div class="buscador-mobile">
+            <input class="input-search" type="text" placeholder="¿Que tipo de rodamientos Buscas?">
+            <div class="boton-search-mobile"><i class="fas fa-search "></i></div>
+        </div>
+    </div>
+
+    <div class="contenedor-modal">
+        <div class="modal">
+            <i class="fas fa-times-circle X-modal"></i>
+            <i class="fas fa-money-bill-wave money-modal"></i>
+            <h4>Formas de pago: </h4>
+            <div class="formas-de-pago">
+                <span class="pago-efectivo">Efectivo</span>
+                <span class="pago-tarjeta">Tarjeta</span>
+            </div>
+
+        </div>
+    </div>
+
+    <header class="cabecera">
+        <div class="logo">
+            <a href="../../index.html" target="_self">
+                <img src="../../images/logo.svg" alt="">
+            </a>
+        </div>
+
+        <div class="menu-navegacion-mobile">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="buscador-icon-mobile">
+            <i class="fas fa-search icon-buscador"></i>
+        </div>
+        <div class="contenedor-buscador">
+            <div class="buscador">
+                <input class="input-search" type="text" placeholder="¿Que tipo de rodamientos Buscas?">
+                <i class="fas fa-search boton-search"></i>
+            </div>
+        </div>
+
+        <div class="carrito">
+            <img src="../../images/icon/carrito-compras.svg" class="logo-carrito" alt="carrito">
+            <span class="indicador">0</span>
+
+            <div class="contenedor-tabla">
+                <div class="encabezado">
+                    <div class="id">id</div>
+                    <div class="cant">Cant.</div>
+                    <div class="prod">Producto</div>
+                    <div class="prec">Precio Total</div>
+                    <div class="trash"><i class="fas fa-trash-alt"></i></div>
+                </div>
+                <div class="productos">
+                </div>
+
+                <div class="total">
+                    <div class="total-texto">Total</div>
+                    <div class="total-precio" style="font-weight: 600; color: #00b909;">$0</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="redes">
+            <a href="https://www.facebook.com/gustavoadolfo.kunzendorf.9" target="blank" class="facebook-item">
+                <img src="../../images/redes/facebook.svg" alt="">
+                <span>Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/matrixrodamientos_/" target="blank" class="instagram-item">
+                <img src="../../images/redes/instagram.svg" alt="">
+                <span>Instagram</span>
+            </a>
+            <a href="tel://+1149238225" class="whatsapp-item">
+                <img src="../../images/redes/whatsapp.svg" alt="">
+                <span>Telefono</span>
+            </a>
+        </div>
+    </header>
+    <!-- semi-barra de navegacion -->
+    <div class="semi-barranav">
+        <a href="../../index.html" class="home-item">
+
+            <span>Inicio</span>
+        </a>
+        <a href="../productos.html" class="basket-item">
+            <span>Productos</span>
+        </a>
+        <a href="#" class="users-item">
+            <span>Nosotros</span>
+        </a>
+        <a href="#" class="envelope-item">
+            <span>Contacto</span>
+
+        </a>
+    </div>
+
+
+    <div class="contenedor-pagina-producto" dataId="8">
+        <div class="contenedor-imagen-producto">
+            <div class="pre-contenedor-imagen">
+                <img class="imagen-producto" src="" alt="">
+            </div>
+        </div>
+        <div class="contenedor-producto">
+            <h1 class="nombre-producto"></h1>
+            <span class="descripcion-producto">Los rodamientos de bolas a rótula tienen dos hileras de bolas, un camino
+                de rodadura esférico común en el aro exterior y dos ranuras profundas continuas en los caminos de
+                rodadura del aro interior. Están disponibles abiertos o sellados. Los rodamientos no se ven afectados
+                por las desalineaciones angulares del eje en relación con el soporte (fig. 1), que puede producirse, por
+                ejemplo, por la flexión del eje.</span>
+            <div class="cantidad">
+                <span class="cantidad-texto">Cantidad: </span>
+                <input class="cantidad-input" type="number" value="1" min="1" max="20">
+            </div>
+            <div class="contenedor-precio">
+                <span class="precio-texto">Precio: </span>
+                <span class="precio"></span>
+            </div>
+            <div class="opciones-producto">
+                <div class="opcion-agregar">Agregar al carrito</div>
+                <div class="opcion-comprar">Comprar Ahora</div>
+            </div>
+        </div>
+    </div>
+    <button class="botonazo">botonazo</button>
+    </div>
+
+    <script src="scriptProductoElejido.js" type="module"></script>
+    <script src="../../funcionalidadesIndex.js"></script>
+</body>
+
+</html>

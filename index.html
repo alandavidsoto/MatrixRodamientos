@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="images/icon/icon2.png" type="image/x-icon">
+    <!-- Codificacion para Caracteres Especiales -->
+    <meta charset="UTF-8">
+    <!-- Compatibildad con Intenet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Viewport Responsive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hoja de Estilo -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="slider/style_slider.css">
+    <link rel="stylesheet" href="Responsive Mobile/Mobile.css">
+    <link rel="stylesheet" href="Responsive Tablet/tablet.css">
+    <link rel="stylesheet" href="responsive-index.css">
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/27afa08620.js" crossorigin="anonymous"></script>
+    <!-- Fonts google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
+    <!-- Tittle -->
+    <title>MatrixRodamientos S.A.</title> 
+</head>
+
+<body >
+    
+    <!-- Contenedor de todo el sitio -->
+    <div id="contenedor">
+
+        <div class="contenedor-buscador-mobile">
+            <div class="buscador-mobile">
+                <input class="input-search" type="text" placeholder="¿Que tipo de rodamientos Buscas?">
+                <div class="boton-search-mobile"><i class="fas fa-search "></i></div>
+            </div>
+        </div>
+
+        <header class="cabecera">
+            <div class="logo">
+                <a href="#" target="blank" >
+                    <img src="images/logo.svg" alt="">
+                </a>
+            </div>
+
+            <div class="menu-navegacion-mobile">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="buscador-icon-mobile">
+                <i class="fas fa-search icon-buscador"></i>
+            </div>
+            <div class="contenedor-buscador">
+                <div class="buscador">
+                    <input class="input-search" type="text" placeholder="¿Que tipo de rodamientos Buscas?">
+                    <i class="fas fa-search boton-search"></i>
+                </div>
+            </div>
+            
+            <div class="carrito">
+                <img src="images/icon/carrito-compras.svg" class="logo-carrito" alt="carrito">
+                <span class="indicador">0</span>
+            </div>
+            <!--Las clases CARRITO Y CONTENEDOR-TABLA las separe para poder manipular la tabla correctamente-->
+            <div class="contenedor-tabla">
+                <div class="encabezado">
+                    <div class="id">id</div>
+                    <div class="cant">Cant.</div>
+                    <div class="prod">Producto</div>
+                    <div class="prec">Precio Total</div>
+                    <div class="trash"><i class="fas fa-trash-alt"></i></div>
+                </div>
+                <div class="productos">
+                </div>
+                
+                <div class="total">
+                    <div class="total-texto">Total</div>
+                    <div class="total-precio" style="font-weight: 600; color: #00b909;">$0</div>
+                </div>
+            </div>
+            <div class="redes">
+                <a href="https://www.facebook.com/gustavoadolfo.kunzendorf.9" target="blank" class="facebook-item">
+                    <img src="images/redes/facebook.svg" alt="facebook">
+                    <span>Facebook</span>
+                </a>
+                <a href="https://www.instagram.com/matrixrodamientos_/" target="blank" class="instagram-item">
+                    <img src="images/redes/instagram.svg" alt="instagram">
+                    <span>Instagram</span>
+                </a>
+                <a href="tel://+1149238225" class="whatsapp-item">
+                    <img src="images/redes/whatsapp.svg" alt="whatsapp">
+                    <span>Telefono</span>
+                </a>
+            </div>
+        </header>
+
+
+
+        <!-- semi-barra de navegacion -->
+        <div class="semi-barranav">
+            <a href="#" class="home-item">
+                
+                <!-- <i id="iconos" class="fas fa-home"></i> -->
+                <span>Inicio</span>
+            </a>
+            <a href="html productos/productos.html" class="basket-item">
+                
+               <!--  <i id="iconos" class="fas fa-shopping-basket"></i> -->
+                <span>Productos</span>
+            </a>
+            <a  href="#" class="users-item">
+                
+                <!-- <i id="iconos" class="fas fa-users"></i> -->
+                <span>Nosotros</span>
+            </a>
+            <a  href="#" class="envelope-item">
+                
+                <!-- <i id="iconos" class="fas fa-envelope"></i> -->
+                <span>Contacto</span>
+                
+            </a>
+        </div>
+        <section>
+            <div class="slider">
+                <div class="slide s1">
+                    <h1>Slide nº 0</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, commodi?</p>
+    
+                </div>
+                <div class="slide s2">
+                    <h1>Slide nº 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, sequi.</p>
+    
+                </div>
+                <div class="slide s3">
+                    <h1>Slide nº 2</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, corporis.</p>
+    
+                </div>
+                <div class="boton derecha">&gt;</div>
+                <div class="boton izquierda">&lt;</div>
+                <ul class="paginacion">
+                   <li></li>
+                   <li></li>
+                   <li></li>        
+                </ul>
+            </div>
+
+            <article class="imagen">
+                <img src="oliwis/imagen1.jpg" alt="">
+            </article>
+            <article class="imagen">
+                <img src="oliwis/imagen2.jpg" alt="" >
+            </article>
+            <article class="imagen">
+                <img src="oliwis/imagen3.jpg" alt="">
+            </article>
+            <article class="imagen">
+                <img src="oliwis/imagen4.jpg" alt="">
+            </article>
+        </section>
+        
+
+        <div class="marquitas"></div>
+    </div>
+    <script src="slider/slider.js"></script>
+    <script src="scripts/funcionalidadesCabecera.js" type="module"></script>
+</body>
+
+</html>
+

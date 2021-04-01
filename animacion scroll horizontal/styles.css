@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.barracolorida{
+    height: 5px;
+    background-color: rgb(197, 50, 50);
+    /* background: -moz-linear-gradient(left,rgb(207, 31, 31),rgb(223, 223, 30),rgb(52, 193, 228),rgb(176, 9, 174),rgb(225, 222, 9)); */
+    transition: all 200ms;
+    position: fixed;
+}

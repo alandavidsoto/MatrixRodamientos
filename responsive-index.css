@@ -1,0 +1,7 @@
+@media (max-width: 1055px){
+    .cabecera .contenedor-tabla {
+        width: 98%;
+        max-width: 400px;
+        min-width: 200px;
+    }
+}

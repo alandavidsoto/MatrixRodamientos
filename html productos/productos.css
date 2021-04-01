@@ -1,0 +1,139 @@
+#contenedor {
+  max-width: 1920px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.contenedor-modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #1119;
+}
+.contenedor-modal .modal {
+  min-width: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #444;
+  color: #333;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+.contenedor-modal .modal .X-modal {
+  font-size: 18px;
+  right: 1px;
+  top: 1px;
+  position: absolute;
+  cursor: pointer;
+}
+.contenedor-modal .modal .carrito-modal {
+  padding: 10px;
+  width: 100%;
+  font-size: 70px;
+}
+.contenedor-modal .modal h4 {
+  font-weight: 700;
+}
+.contenedor-modal .modal .producto-agregado {
+  margin-top: 10px;
+}
+
+.contenedor-productos {
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.contenedor-productos .producto {
+  width: 250px;
+  height: 310px;
+  height: 350px;
+  margin: 10px;
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+  box-shadow: 0px 0px 2px #bbb;
+  border-radius: 5px;
+}
+.contenedor-productos .producto .contenedor-imagen {
+  height: 200px;
+}
+.contenedor-productos .producto .contenedor-imagen img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contenedor-productos .producto .descripcion {
+  text-align: center;
+}
+.contenedor-productos .producto .descripcion .titulo {
+  height: 45px;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #444;
+  text-transform: uppercase;
+}
+.contenedor-productos .producto .descripcion .precio {
+  cursor: pointer;
+  display: block;
+  width: 95%;
+  /*                 background-color: rgb(19, 100, 192); */
+  margin: 0px auto;
+  font-size: 30px;
+  border-radius: 3px;
+  color: #166fd4;
+  font-weight: 700;
+}
+.contenedor-productos .producto .descripcion .verinfo {
+  cursor: pointer;
+  display: block;
+  width: 95%;
+  background-color: #00bb28;
+  padding: 10px;
+  margin: 10px auto;
+  font-size: 19px;
+  border-radius: 3px;
+  color: #eee;
+  text-shadow: 0px 0px 3px #777;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.contenedor-productos .producto .descripcion .verinfo:active {
+  background-color: #007419;
+}
+.contenedor-productos .producto:hover {
+  box-shadow: 0px 0px 4px #1364c0;
+}
+.contenedor-productos .producto:active {
+  box-shadow: 0px 0px 4px #1364c0;
+}
+
+.contenedor-boton-pagar {
+  width: 90%;
+  margin: 10px auto;
+  text-align: end;
+}
+.contenedor-boton-pagar .boton-pagar {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  padding: 15px 35px;
+  background-color: #02ae15;
+  color: #fff;
+  text-shadow: 0px 0px 3px #333;
+  border-radius: 5px;
+}
+.contenedor-boton-pagar .boton-pagar:hover {
+  opacity: 0.9;
+}
+
+/*# sourceMappingURL=productos.css.map */

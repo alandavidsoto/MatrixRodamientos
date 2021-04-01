@@ -1,0 +1,127 @@
+.contenedor-modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #1119;
+    z-index: 1;
+
+    .modal {
+        min-width: 400px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px #444;
+        color: #333;
+        position: relative;
+        text-align: center;
+        padding: 10px;
+
+        .X-modal{
+            font-size: 18px;
+            right: 1px;
+            top: 1px;
+            position: absolute;
+            cursor: pointer;
+        }
+        .money-modal{
+            padding: 10px;
+            width:100%;
+            font-size: 70px;
+        }
+        h4{
+            font-weight: 700;
+        }
+        .formas-de-pago {
+            width: 80%;
+            font-size: 30px;
+            margin: 10px auto;
+            span {
+                cursor: pointer;
+                height: 50px;
+                line-height: 50px;
+                background-color:#23d72c;
+                display: block;
+                text-align: center;
+                margin: 10px;
+                color: #fff;
+                text-shadow: 0px 0px 3px #777;
+                border-radius: 3px;
+                box-shadow: 0px 0px 2px #333;
+            }
+        }
+        
+    }
+}
+
+.contenedor-pagina-producto{
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+}
+.contenedor-imagen-producto{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .pre-contenedor-imagen {
+        width: 90%;
+        padding: 10px;
+        border: 1px solid #bbb;
+        border-radius: 3px;
+        background-color: #fff;
+        .imagen-producto {
+            width: 100%;
+        }
+    }
+}
+
+.contenedor-producto{
+    width: 40%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #d7d7d7;
+    .nombre-producto{
+        text-align: center;
+        margin: 30px 0px;
+    }
+    .descripcion-producto{
+        display: block;
+        font-size: 18px;
+        margin: 30px 0px;
+    }
+    .cantidad{
+        font-size: 20px;
+        margin: 30px 0px;
+        .cantidad-input {
+            width: 40px;
+        }
+    }
+    .contenedor-precio{
+        .precio-texto{
+            font-size: 23px;
+        }
+        .precio{
+            font-weight: 600;
+            font-size: 26px;
+            color: #00b909;
+        }
+    }
+    .opciones-producto{
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0px;
+        div{
+            cursor: pointer;
+            width: 36%;
+            text-align: center;
+            font-size: 24px;
+            background-color: rgb(18, 81, 139);
+            color: #fff;
+            border-radius: 5px;
+        }
+    }
+}

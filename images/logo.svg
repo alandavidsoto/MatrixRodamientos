@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="669" height="75" viewBox="0 0 669 75">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        font-size: 100px;
+        fill: red;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        font-family: Arial;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #302f2f;
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 83.333px;
+      }
+
+      .cls-3 {
+        font-size: 66.666px;
+      }
+
+      .cls-4 {
+        font-size: 87.5px;
+      }
+    </style>
+  </defs>
+  <text id="X" class="cls-1" x="149" y="74">X</text>
+  <text id="Matri" class="cls-2" x="-3" y="73">M<tspan class="cls-3">atri</tspan></text>
+  <text id="Rodamientos" class="cls-4" x="229.375" y="71.877">R<tspan class="cls-3">odamientos</tspan></text>
+</svg>

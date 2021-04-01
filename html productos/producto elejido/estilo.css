@@ -1,0 +1,125 @@
+.contenedor-modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #1119;
+  z-index: 1;
+}
+.contenedor-modal .modal {
+  min-width: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #444;
+  color: #333;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+.contenedor-modal .modal .X-modal {
+  font-size: 18px;
+  right: 1px;
+  top: 1px;
+  position: absolute;
+  cursor: pointer;
+}
+.contenedor-modal .modal .money-modal {
+  padding: 10px;
+  width: 100%;
+  font-size: 70px;
+}
+.contenedor-modal .modal h4 {
+  font-weight: 700;
+}
+.contenedor-modal .modal .formas-de-pago {
+  width: 80%;
+  font-size: 30px;
+  margin: 10px auto;
+}
+.contenedor-modal .modal .formas-de-pago span {
+  cursor: pointer;
+  height: 50px;
+  line-height: 50px;
+  background-color: #23d72c;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: #fff;
+  text-shadow: 0px 0px 3px #777;
+  border-radius: 3px;
+  box-shadow: 0px 0px 2px #333;
+}
+
+.contenedor-pagina-producto {
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+}
+
+.contenedor-imagen-producto {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-imagen-producto .pre-contenedor-imagen {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.contenedor-imagen-producto .pre-contenedor-imagen .imagen-producto {
+  width: 100%;
+}
+
+.contenedor-producto {
+  width: 40%;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #d7d7d7;
+}
+.contenedor-producto .nombre-producto {
+  text-align: center;
+  margin: 30px 0px;
+}
+.contenedor-producto .descripcion-producto {
+  display: block;
+  font-size: 18px;
+  margin: 30px 0px;
+}
+.contenedor-producto .cantidad {
+  font-size: 20px;
+  margin: 30px 0px;
+}
+.contenedor-producto .cantidad .cantidad-input {
+  width: 40px;
+}
+.contenedor-producto .contenedor-precio .precio-texto {
+  font-size: 23px;
+}
+.contenedor-producto .contenedor-precio .precio {
+  font-weight: 600;
+  font-size: 26px;
+  color: #00b909;
+}
+.contenedor-producto .opciones-producto {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0px;
+}
+.contenedor-producto .opciones-producto div {
+  cursor: pointer;
+  width: 36%;
+  text-align: center;
+  font-size: 24px;
+  background-color: #12518b;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
