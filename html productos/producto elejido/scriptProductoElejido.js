@@ -1,6 +1,5 @@
 //importamos AGREGARPRODUCTO() para colocar el producto al carrito
 import {agregarProducto,Ids} from "../../scripts/./agregarProducto.js"
-console.log("putamadre")
 
 const agregarAhora = document.querySelector(".opcion-agregar")
 

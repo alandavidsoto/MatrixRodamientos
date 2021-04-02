@@ -10,11 +10,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 })
 
 const obtenerFetch = async () => {
-    const res = await fetch("productos.JSON")
-    const data = await res.json()
-    creadorCards(data)
+    await fetch("productos.json").then(res =>res.json()).then(data=> {creadorCards(data)})
 }
 const creadorCards = (data) => {
+    console.log("entree")
     let fragment = document.createDocumentFragment()
     let precio;
     data.forEach(objeto => {
@@ -120,29 +119,3 @@ const colocadorEventos = (data) => {
         
     }
 }
-
-
-
-const contenedorModal = document.querySelector(".contenedor-modal") // Este elemento lo utilizamos para mostrar el modal cuando se seleccione un producto
-const modal = document.querySelector(".modal") // Con este elemento accedemos a sus nodos hijos y lo manipulamos
-const agregar = document.querySelector(".producto-agregado") //el modal muestra el producto que agregamos
-const cerrarModal = document.querySelector(".X-modal") // Elemento para cerrar el modal
-const pagarProductos = document.querySelector(".boton-pagar") //Boton para ver todo lo que hay en el carrito para Pagar
-
-cerrarModal.addEventListener("click", () => {
-    contenedorModal.style.display = "none"
-})
-
-pagarProductos.addEventListener("click", () => {
-    let documentofragmentado = document.createDocumentFragment()
-    for (x in carrito) {
-        let contenidoProducto = document.createElement("h2")
-        contenidoProducto.innerHTML = `${carrito[x][0]}  ${carrito[x][1]}  $${carrito[x][2]} <b style="color:green">$${carrito[x][2] * carrito[x][0]}</b>`
-        documentofragmentado.appendChild(contenidoProducto)
-    }
-
-    contenedorModal.style.display = "flex"
-    modal.children[2].innerHTML = "Resumen del Carrito: ";
-    modal.children[3].innerHTML = "Cantidad  Producto  Precio Unitario  Precio Final"
-    modal.appendChild(documentofragmentado)
-})
